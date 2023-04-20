@@ -1,0 +1,101 @@
+body {
+  margin: 0em 6em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(39, 68, 68);
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background: linear-gradient(90deg ,#672280 1.18%,#A62603 100%);
+  color: white;
+  padding: 20px;
+}
+.header-img{
+  height: 100%;
+  margin-right: 20px;
+}
+.header--title{
+  font-size: 30px;
+  margin-right: auto;
+}
+.header--project{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+.form{
+  display: flex;
+  grid-template: 40px 40px /1fr 1fr;
+  gap:20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-top: 3em;
+  height: 100%;
+}
+.form--input{
+  width: 40%;
+  border-radius: 5px;
+  border: 2px solid black;
+  height: 50px;
+  text-indent:10px;
+  font-size:20px;
+}
+.form--button{
+  width: 85%;
+  height:40px;
+  font-size: 20px;
+  grid-column:1 / -1 ;
+  background: linear-gradient(90deg ,#A62603 2.53%,#672280 100%);
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.meme{
+  position: relative;
+}
+
+.meme--text{
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+.bottom {
+  bottom: 40px;
+}
+
+.top {
+    top: -120px;
+}
